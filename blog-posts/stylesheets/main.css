@@ -17,7 +17,15 @@
 
 .jumbotron {
   height: 450px;
-  background-image: url('https://s3.amazonaws.com/ooomf-com-files/gQZ2iaRdRoWKahCTncS1_brooklyn-bridge.jpg');
+  background-image: url('https://s3.amazonaws.com/ooomf-com-files/8H0UdTsvRFqe03hZkNJr_New%20York%20-%20On%20the%20rock%20-%20Empire%20State%20Building.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.blogjumbo .jumbotron {
+  height: 450px;
+  background-image: url('https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -28,12 +36,13 @@
 }
 
 .jumbotron h1{
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 68px;
   font-weight: bold;
   font-family: 'PT Sans Narrow', sans-serif;
   text-align: center;
   margin-top: 140px;
+  text-shadow: 2px 2px 0px #000;
 }
 
 .blog-content {
@@ -64,6 +73,27 @@
   color: #00b0ff;
 }
 
+.icon-links {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.about-me {
+  background-image: url('http://unsplash.s3.amazonaws.com/batch%209/bob-van-aubel-ray-bans.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+#quote {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #FFF;
+  font-size: 32px;
+  text-shadow: 2px 2px 0px #000;
+}
+
 .thumbnail img {
   max-height: 150px;
 }
@@ -73,6 +103,8 @@
 }
 
 #footer p {
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-family: 'PT Sans Narrow', sans-serif;
   color: #FFFFFF;
