@@ -1,0 +1,79 @@
+.nav {
+  background-color: #32322C;
+}
+
+.nav a {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  height: 450px;
+  background-image: url('https://s3.amazonaws.com/ooomf-com-files/gQZ2iaRdRoWKahCTncS1_brooklyn-bridge.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.jumbotron .container {
+  position: relative;
+}
+
+.jumbotron h1{
+  color: #ffffff;
+  font-size: 68px;
+  font-weight: bold;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.blog-content {
+  background-color: #FFFFFF;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.blog-content h2 {
+  font-size: 36px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.blog-content h3 {
+  font-size: 28px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+}
+
+.blog-content p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 17px;
+}
+
+.blog-content a {
+  color: #00b0ff;
+}
+
+.thumbnail img {
+  max-height: 150px;
+}
+
+#footer {
+  background-color: #464641;
+}
+
+#footer p {
+  text-align: center;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #FFFFFF;
+}
