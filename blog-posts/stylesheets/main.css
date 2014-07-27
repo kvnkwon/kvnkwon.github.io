@@ -160,6 +160,10 @@
   max-height: 150px;
 }
 
+.thumbnail .bigger img {
+  max-height: 500px !important;
+}
+
 #footer {
   background-color: #464641;
 }
