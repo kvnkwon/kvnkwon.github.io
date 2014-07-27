@@ -94,16 +94,12 @@
 .project-links {
   margin-top: 15px;
   font-family: 'PT Sans Narrow', sans-serif;
+  text-align: center;
   margin-bottom: 15px;
 }
 
 .project-links p {
-  font-size: 18px;
-}
-
-.project-links h2 {
-  text-align: center;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .blog-content {
@@ -158,6 +154,10 @@
 .thumbnail {
   border: 0 none;
   box-shadow: none;
+}
+
+.thumbnail img {
+  max-height: 150px;
 }
 
 #footer {
