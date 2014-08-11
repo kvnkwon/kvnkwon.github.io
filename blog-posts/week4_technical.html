@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <meta charset="utf-8">
+    <title>Week 4 Technical</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="http://kvnkwon.github.io/">Home</a></li>
+          <li><a href="https://github.com/kvnkwon">My Github</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="http://kvnkwon.github.io/blog-posts/blog_index.html">Blog</a></li>
+          <li><a href="http://kvnkwon.github.io/blog-posts/project_index.html">DBC Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blogjumbo">
+      <div class="jumbotron">
+        <div class="container">
+          <h1>@kvnkwon</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h2>Ruby: Arrays vs Hashes</h2>
+            <h3>Arrays</h3>
+            <p>
+              According to Ruby-Doc, "Arrays are ordered, integer-indexed collections of any object." Or put simply, an ordered list of things. They are used to store collections of data. Each object in an array can be accessed using a unique key. The first element in the array can be accessed using index 0 of the array.
+            </p>
+            <p>
+              Example: favorite_fruits_array = ["orange", "apple", "mango", "strawberry", "kiwi"]
+              To access "mango", you would do favorite_fruits_array[2].
+            </p>
+            <p>Reference: <a href="http://www.ruby-doc.org/core-2.1.2/Array.html">Ruby-Doc</a><p>
+            <h3>Hashes</h3>
+            <p>
+              According to Ruby Doc, "A Hash is a collection of key-value pairs. It is similar to an Array, except that indexing is done via arbitrary keys of any object type, not an integer index." Key-value what? You could picture it like this: Kevin went to Syracuse, John went to Harvard, and Mike went to UCLA. The names of the people would be the key and the schools would be the value. Hashes point an object to another object.
+            </p>
+            <p>
+              Example:
+              school_backgrounds = {
+                'Kevin' => 'Syracuse',
+                'John' => 'Harvard',
+                'Mike' => 'UCLA'
+              }
+              To access what school John went to, you would do: school_backgrounds['John']. The result would be => "Harvard".
+            </p>
+            <p>Reference: <a href="http://ruby-doc.org/core-2.1.2/Hash.html">Ruby-Doc</a><p>
+            <h3>When to use them</h3>
+            <p>
+              It really depends on the scale of the data you are storing as well as what is being stored. As you saw above, arrays are accessed using indexes. When trying to find a very specific element in the array, it could get tedious and difficult to find exactly what you want. Hashes are easy to access if you are looking for something specific, because you can point straight to the key to access the value. However, hashes are not ordered data. It becomes quite complex when trying to get the data out of a hash back in an ordered way. This is where arrays become more useful than hashes. If the ordering is important to you, it is safe to use arrays over hashes.
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p>Copyright 2014 Kevin Kwon</p>
+      </div>
+    </div>
+  </body>
+</html>
