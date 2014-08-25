@@ -37,15 +37,32 @@
           <div class="col-md-2"></div>
           <div class="col-md-8">
             <h2>Class Methods</h2>
+            <p>
+              Last week, I talked about instance methods and how they exist at the object level. This week, we'll be taking a look into class methods that exist at the class level.
+            </p>
+            <p>
+              If we look at this class here, we can see that the class has an instance method.
+            </p>
             <div class="thumbnail">
               <div class="bigger">
-                <img src="http://www.explainxkcd.com/wiki/images/7/75/how_it_works.png">
+                <img src="http://s11.postimg.org/w03i2ng83/ooexample.png">
               </div>
             </div>
             <p>
-
+              Lets now take a look at an example of a class method. Both classes from the examples have the same function and output. Can you notice what changed?
             </p>
+            <div class="thumbnail">
+              <div class="bigger">
+                <img src="http://s22.postimg.org/491xoqpw1/classexample.png">
+              </div>
             </div>
+            <p>
+              You can see that there is no initialize method for the second example because it uses the class method, self.display, which accepts a title and artist for its parameters. The .self in this case is just telling the class, that display is a class method. The first example required us to call a new instance of the class in order to use the instance method, but the second example allowed us to call the class method, display, directly on the class without calling a new instance of it. Sweet right?
+            </p>
+            <p>
+              Class methods are global methods, which just means you can access and call them from anywhere without creating an object instance. Instance methods are part of object-oriented programming, whereas class methods are part of procedural programming. Many developers avoid using class methods, because they favor the object oriented approach. Class methods may be handy and simple in solving a solution, but ultimately theres going to be a better approach to it through Object Oriented Programming.
+            </p>
+          </div>
           <div class="col-md-2"></div>
         </div>
       </div>
