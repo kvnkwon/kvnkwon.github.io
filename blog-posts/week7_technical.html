@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html>
+
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <meta charset="utf-8">
+    <title>Week 7 Technical</title>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="http://kvnkwon.github.io/">Home</a></li>
+          <li><a href="https://github.com/kvnkwon">My Github</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="http://kvnkwon.github.io/blog-posts/blog_index.html">Blog</a></li>
+          <li><a href="http://kvnkwon.github.io/blog-posts/project_index.html">DBC Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="blogjumbo">
+      <div class="jumbotron">
+        <div class="container">
+          <h1>@kvnkwon</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <h2>SQL vs NoSQL</h2>
+            <div class="thumbnail">
+              <div class="bigger">
+                <img src="http://1.bp.blogspot.com/-TPc2j58W6XU/UMHDAN8i5QI/AAAAAAAAAbU/r7auzaWtPKU/s1600/Capture1.PNG">
+              </div>
+            </div>
+            <p>
+              SQL vs NoSQL translates to basically relational versus non-relational databases. Some examples of relational databases include: Oracle, MySQL, and SQL Server. Non-relational database examples include: MongoDB, CouchDB, and more.
+            </p>
+            <h3>What is NoSQL?</h3>
+            <p>
+              NoSQL encompasses a variety of different database technologies and was created in response to a rise in the volume of data stored about users, objects and products, the frequency in which this data is accessed, and performance and processing needs.
+            </p>
+            <p>
+              Facebook, Twitter, and Digg's increasing growth prompted a switch from SQL to NoSQL databases. They found that NoSQL databases were more scalable, reliable, and easier to manage.
+            </p>
+            <p>
+              The argument against SQL (Common arguments though not 100% proven true):
+              <ul>
+                <li>Joins in relational databases can slow the system down significantly, especially when millions of users are doing lookups against tables with millions of rows of datas. Google and Amazon found this to be especially true so they ended up creating their own non-relational systems.</li>
+                <li>Relational data does not map well to typical programming structures that often consist of complex data types or hierarchical data. Data such as XML is especially difficult because of its hierarchical nature. Complex objects that contain objects and lists inside of them do not always map directly to a single row in a single table.</li>
+                <li>Relational data does not map well. Combine that with the need to handle the syntax of SQL, and writing client code for accessing SQL databases become difficult.</li>
+                <li>Basically relational databases were not designed to cope with the scale and agility challenges that face modern applications, nor were they built to take advantage of the cheap storage and processing power available today.</li>
+              </ul>
+            </p>
+            <p>
+              How valid are these claims? Huge banks that serve thousands of branches and millions of customers, including hundreds of thousands of online members, survive just fine using SQL. This leads us to...
+            </p>
+            <p>
+              The argument for SQL:
+              <ul>
+                <li>You're not as big as Google and you're not searching as much data as Google. Further today's relational systems such as Oracle are extremely powerful and mature and can handle joins at the performance level that most systems require.</li>
+                <li>Most data can be mapped to a relational database, even XML and complex objects. </li>
+                <li>Code libraries aid in the development of client code, aren't that difficult to use.</li>
+              </ul>
+            </p>
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <p>Copyright 2014 Kevin Kwon</p>
+      </div>
+    </div>
+  </body>
+</html>
