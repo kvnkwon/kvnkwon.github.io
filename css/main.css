@@ -1,3 +1,47 @@
 body {
-  background-color: black;
+  background-color: #282828;
+}
+
+.title {
+  margin-top: 2em;
+}
+
+.name {
+  color: #F00;
+}
+
+.movies {
+  color: #00FFE2;
+}
+
+.yes {
+  color: #A2FFE3;
+}
+
+.no {
+  color: #458672;
+}
+
+.light-blue {
+  color: #46C0FF;
+}
+
+.lime {
+  color: #78CD5B;
+}
+
+.orange {
+  color: #FF9B00;
+}
+
+.pink {
+  color: #FF1F85;
+}
+
+.white {
+  color: #fff;
+}
+
+.hi-yellow {
+  color: #A1FF00;
 }
