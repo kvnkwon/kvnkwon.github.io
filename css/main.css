@@ -15,6 +15,7 @@ html {
 }
 
 .navbar {
+  margin-top: 1em;
   background-color: #FFFFFF;
   border-bottom: 5px solid #e8e8e8;
   height: 5em;
@@ -26,6 +27,7 @@ html {
   font-weight: 300;
   text-transform: uppercase;
   margin-top: 1.8em;
+  margin-right: 2em;
   font-size: 1.1em;
   float: right;
   text-align: right;
