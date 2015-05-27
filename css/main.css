@@ -52,8 +52,36 @@ html {
   font-weight: 500;
 }
 
+.intro {
+  height: 30em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://download.unsplash.com/uploads/1413387620228d142bee4/23eceb86');
+}
+
+.intro h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: -0.5em;
+  font-size: 3em;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.intro p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  padding-top: 7em;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-family: 'Droid Serif', serif;
+  font-style: italic;
+}
+
 .about-me {
-  background-color: #F5FDCD;
+  background-color: #E4E7E8;
   padding: 5em 2em;
 }
 
