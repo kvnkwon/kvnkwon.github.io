@@ -62,7 +62,6 @@ html {
 }
 
 .content {
-  margin-top: 3.5em;
   padding-right: 2em;
 }
 
@@ -70,5 +69,4 @@ html {
   height: 70%;
   width: 70%;
   border-radius: 15em;
-  margin-left: 2em;
 }
