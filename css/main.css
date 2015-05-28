@@ -102,3 +102,15 @@ html {
   margin: 0 auto;
   display: block;
 }
+
+.projects {
+  background-color: #818181;
+  padding: 5em 2em;
+}
+
+.projects h3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+}
