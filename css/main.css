@@ -125,7 +125,7 @@ html {
 }
 
 .projects {
-  background-color: #818181;
+  background-color: #B3E1EE;
   padding: 5em 2em;
 }
 
@@ -176,22 +176,19 @@ html {
   border-radius: 5px;
 }
 
-.vidstock-title {
-  display: none;
+.vidstock-img:hover > .overlay, .reso-img:hover > .overlay, .pulsar-img:hover > .overlay, .coach-img:hover > .overlay {
+  width:100%;
+  height:100%;
+  background-color:#000;
+  opacity:0.9;
+  border-radius: 5px;
   text-align: center;
+  padding-top: 5em;
 }
 
-.reso-title {
+.vidstock-title, .reso-title, .pulsar-title, .coach-title {
   display: none;
-  text-align: center;
-}
-
-.pulsar-title {
-  display: none;
-  text-align: center;
-}
-
-.coach-title {
-  display: none;
-  text-align: center;
+  color: #FFFFFF;
+  font-size: 2em;
+  text-decoration: none;
 }
