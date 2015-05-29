@@ -93,14 +93,37 @@ html {
 
 .content {
   font-family: 'Open Sans', sans-serif;
+  padding-top: 1.5em;
 }
 
 .prof-pic {
-  height: 70%;
-  width: 70%;
+  height: 75%;
+  width: 75%;
   border-radius: 15em;
   margin: 0 auto;
   display: block;
+}
+
+.location {
+  height: 13em;
+}
+
+.location-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  url('https://download.unsplash.com/photo-1432163230927-a32e4fd5a326');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location h3 {
+  padding: 1.7em 0;
+  text-align: center;
+  color: #D2FF94;
+  font-size: 3em;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .projects {
