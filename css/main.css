@@ -140,8 +140,58 @@ html {
   margin: 2em 0;
 }
 
-.projects img {
+.vidstock-img {
+  background: url('../images/vidstock.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 15em;
-  width: 100%;
-  border-radius: 3px;
+  border-radius: 5px;
+}
+
+.reso-img {
+  background: url('../images/reso.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  border-radius: 5px;
+}
+
+.pulsar-img {
+  background: url('../images/pulsar.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  border-radius: 5px;
+}
+
+.coach-img {
+  background: url('../images/needyoucoach.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15em;
+  border-radius: 5px;
+}
+
+.vidstock-title {
+  display: none;
+  text-align: center;
+}
+
+.reso-title {
+  display: none;
+  text-align: center;
+}
+
+.pulsar-title {
+  display: none;
+  text-align: center;
+}
+
+.coach-title {
+  display: none;
+  text-align: center;
 }
