@@ -104,26 +104,24 @@ html {
   display: block;
 }
 
-.location {
-  height: 13em;
-}
-
 .location-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+  height: 10em;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('https://download.unsplash.com/photo-1432163230927-a32e4fd5a326');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.location h3 {
-  padding: 1.7em 0;
+.location h4 {
+  padding: 1.5em 1em;
   text-align: center;
-  color: #D2FF94;
-  font-size: 3em;
+  color: #FFC445;
+  font-size: 2.3em;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 .projects {
