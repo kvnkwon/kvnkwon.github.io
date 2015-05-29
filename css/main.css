@@ -135,3 +135,13 @@ html {
   font-weight: 800;
   font-size: 2em;
 }
+
+.projects .row {
+  margin: 2em 0;
+}
+
+.projects img {
+  height: 15em;
+  width: 100%;
+  border-radius: 3px;
+}
