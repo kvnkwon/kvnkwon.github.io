@@ -187,6 +187,7 @@ html {
   border-radius: 3px;
   text-align: center;
   padding-top: 5em;
+  transition: all .3s ease-in-out;
 }
 
 .vidstock-title, .reso-title, .pulsar-title, .coach-title {
