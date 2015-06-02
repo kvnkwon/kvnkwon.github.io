@@ -107,18 +107,18 @@ html {
 }
 
 .location-image {
-  height: 10em;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('https://download.unsplash.com/photo-1432163230927-a32e4fd5a326');
-  background-position: center;
+  height: 12em;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url('https://download.unsplash.com/44/xKNCBEgSTUGbgBoYgJ90_Skyline.jpg');
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .location h4 {
-  padding: 1.5em 1em;
+  padding: 2em 1em;
   text-align: center;
-  color: #D7FF1D;
+  color: #FFDA1F;
   font-size: 2.3em;
   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
   font-family: 'Open Sans', sans-serif;
@@ -203,7 +203,7 @@ html {
 }
 
 .contact {
-  background-color: #1F7998;
+  background-color: #03526E;
   padding: 7em;
 }
 
@@ -242,15 +242,15 @@ html {
 }
 
 .social .facebook > a {
-  color: #253866;
+  color: #8B9DC3;
 }
 
 .social .linkedin  > a {
-  color: #FFFFFF;
+  color: #007bb6;
 }
 
 .social .github  > a {
-  color: #000000;
+  color: #ff9933;
 }
 
 .social .github, .linkedin, .facebook, .twitter {
@@ -264,4 +264,11 @@ html {
 
 .links li > a:hover {
   color: #67D8FF;
+}
+
+.footer {
+  padding: 5em 0;
+  background-color: #172D42;
+  text-align: center;
+  color: #FFFFFF;
 }
