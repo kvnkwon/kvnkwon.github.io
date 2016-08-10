@@ -69,27 +69,16 @@ html {
 
 .thinkbaked-logo {
   width: 300px;
-  margin-top: 32px;
 }
 
 .infected-logo {
   width: 300px;
 }
 
-.hypeist-title {
-  margin-top: 50px;
-}
-
-.thinkbaked-title {
-  margin-top: 32px;
-}
-
-.infected-info {
-  padding: 32px 0;
-}
-
 .project-info {
-  background-color: rgba(0, 0, 0, 0.79);
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 5px;
+  padding: 52px 0;
 }
 
 .project-button {
