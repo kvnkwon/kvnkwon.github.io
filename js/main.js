@@ -1,45 +1,21 @@
 $(document).ready(function() {
 
-  $('.vidstock-img').hover(
-    function () {
-    $(".vidstock-title").show();
-    },
-    function () {
-      $(".vidstock-title").hide();
-    }
-  );
-
-  $('.reso-img').hover(
-    function () {
-    $(".reso-title").show();
-    },
-    function () {
-      $(".reso-title").hide();
-    }
-  );
-
-  $('.pulsar-img').hover(
-    function () {
-    $(".pulsar-title").show();
-    },
-    function () {
-      $(".pulsar-title").hide();
-    }
-  );
-
-  $('.coach-img').hover(
-    function () {
-    $(".coach-title").show();
-    },
-    function () {
-      $(".coach-title").hide();
-    }
-  );
-
-  $('a[href*=#]').on('click', function(event){
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+  $(".identity").typed({
+    strings: ["a developer", "a filmmaker", "an artist", "a designer", "a creative thinker", "a tech enthusiast", "an avid gamer", "a basketball lover", "a big dream chaser", "building the next big thing"],
+    typeSpeed: 1
   });
 
+   window.setHashLink = 0;
+
+  $(".project-tab").hover(
+    function() {
+      $(this).css('color', '#333');
+      $(this).parent().css('background-color', '#fff');
+    }, function () {
+      $(this).css('color', '#fff');
+      $(this).parent().css('background-color', 'transparent');
+    }
+
+  );
 
 });
