@@ -12,8 +12,55 @@ html {
   border: 2px solid #fff;
 }
 
+.intro-name {
+  font-family: 'Eczar', serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.intro-content {
+  font-family: 'Rubik', sans-serif;
+  font-size: 85px;
+  color: #000;
+  font-weight: 700;
+  text-align: left;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.intro-content-container {
+  margin: 0 auto;
+}
+
+.intro-image {
+  margin-top: 80px;
+  margin-right: 250px;
+}
+
+.red-text {
+  color: red;
+}
+
+.intro-design {
+  font-weight: 400;
+  font-size: 54px;
+  color: #333;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.designer-title {
+  font-weight: 700;
+}
+
 .intro-header {
-  font-family: "Source Sans Pro";
   margin-top: 34px;
   margin-bottom: 0;
   font-size: 84px;
@@ -47,7 +94,16 @@ html {
 }
 
 .skills-title {
-  font-family: "Source Sans Pro";
+  font-family: 'Rubik', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.skill {
+  color: #000;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .skills-icon {
@@ -126,25 +182,38 @@ html {
 
 .contact-header {
   font-size: 38px !important;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #333;
 }
 
 .contact-email {
+  color: #000;
   font-size: 40px !important;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
+  margin-top: 16px;
+  margin-bottom: 32px;
 }
 
 /* nav */
 .nav-logo {
-  width: 70px;
+  width: 80px;
+  margin-left: 22px;
 }
 
 .nav-links {
-  margin-right: 16px;
-  font-family: 'Raleway';
+  margin-right: 18px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .slides .panel.top {
-  background: rgba(10,11,12,.975);
-  box-shadow:0 1px 1px rgba(0,0,0,0.20);
+  background: #000;
   color: #fff;
 }
 /* set color for a button for different colored slides */

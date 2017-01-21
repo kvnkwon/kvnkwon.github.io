@@ -10,8 +10,7 @@
      <link rel="icon" type="image/png" href="favicon.png">
 
      <!-- Fonts -->
-     <link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic|Raleway:300,500,800|Source+Sans+Pro:300,400,600,700" rel="stylesheet" type="text/css"/>
-
+     <link href="https://fonts.googleapis.com/css?family=Eczar:700|Roboto+Mono:400,700|Rubik:400,700" rel="stylesheet">
      <!-- Styles -->
      <link rel="stylesheet" href="css/slides.min.css" name="main-styles">
      <link rel="stylesheet" href="css/main.css">
@@ -37,16 +36,16 @@
     <!-- Main Nav -->
     <nav class="panel top small fixed forceMobileView">
       <div class="sections desktop">
-        <div class="left"><a href="#home"><img class="nav-logo" src="images/kwonhead.svg" alt=""></a></div>
+        <div class="left"><a href="#home"><img class="nav-logo" src="images/k2-logo.svg" alt=""></a></div>
         <div class="right">
           <a class="nav-links" href="#my-skills">Skills</a>
-          <a class="nav-links" href="#my-projects">Projects</a>
-          <a class="button menuButton" href="#my-contact">Contact</a>
+          <a class="nav-links" href="#my-projects">Portfolio</a>
+          <a class="nav-links" href="#my-contact">Contact</a>
         </div>
       </div>
       <div class="sections compact hidden">
         <div class="left">
-          <a href="#home"><img class="nav-logo" src="images/kwonhead.svg" alt=""></a>
+          <a href="#home"><img class="nav-logo" src="images/k2-logo.svg" alt=""></a>
         </div>
         <div class="right">
           <button class="sidebarTrigger" data-sidebar-id="mobile-sidebar"><i class="fa fa-bars mobile-nav-btn"></i></button>
@@ -68,16 +67,31 @@
     </nav>
 
     <!-- Head Content -->
-    <section class="slide fade kenBurns" name="home">
+    <section class="slide whiteSlide fade kenBurns" name="home">
       <div class="content">
         <div class="container">
           <div class="wrap">
-            <h1 class="intro-header">I am <span class="identity"></span></h1>
-            <a href="#my-contact" class="button uppercase round talk-button">LET'S TALK</a>
+            <ul class="grid">
+              <li class="col-8-12 left">
+                <div class="intro-content-container">
+                  <h3 class="intro-content"><span class="intro-design">i'm a _</span></h3>
+                  <h3 class="intro-content"><span class="red-text">design</span>er</h3>
+                  <h3 class="intro-content"><span class="red-text">develop</span>er</h3>
+                  <h3 class="intro-content"><span class="red-text">film</span>maker</h3>
+                  <h3 class="intro-content"><span class="red-text">art</span>ist</h3>
+                </div>
+              </li>
+              <li class="col-4-12">
+                <!-- <img class="intro-image" src="images/kevin-fullbody.svg" alt=""> -->
+              </li>
+            </ul>
+
+            <!-- <img class="intro-image" src="images/kwon-head.svg" alt=""> -->
+            <!-- <h1 class="intro-header">I am <span class="identity"></span></h1>
+            <a href="#my-contact" class="button uppercase round talk-button">LET'S TALK</a> -->
           </div>
         </div>
       </div>
-      <div class="background" style="background-image:url('https://hd.unsplash.com/photo-1466115593837-8141bdee03d8')"></div>
     </section>
 
 
@@ -87,42 +101,42 @@
         <div class="container">
           <div class="wrap">
             <div class="fix-10-12 toCenter">
-              <h1 class="small ae-1 skills-title">Skills</h1>
+              <h1 class="ae-1 skills-title">Skills</h1>
             </div>
             <div class="fix-12-12">
               <ul class="grid grid-47 later equal">
                 <li class="col-4-12 equalElement first-row">
                   <div class="fix-4-12 ae-3">
                     <img class="icon-47 skills-icon" src="images/htmlcss.svg" alt="">
-                    <h3 class="uppercase">HTML/CSS</h3>
+                    <h3 class="uppercase skill">HTML/CSS</h3>
                   </div>
                 </li>
                 <li class="col-4-12 equalElement first-row">
                   <div class="fix-4-12 ae-4">
                     <img class="icon-47 skills-icon" src="images/javascript.svg" alt="">
-                    <h3 class="uppercase">Javascript</h3>
+                    <h3 class="uppercase skill">Javascript</h3>
                   </div>
                 </li>
                 <li class="col-4-12 equalElement first-row">
                   <div class="fix-4-12 ae-5">
                     <img class="icon-47 skills-icon" src="images/ruby.svg" alt="">
-                    <h3 class="uppercase">Ruby on Rails</h3>
+                    <h3 class="uppercase skill">Ruby on Rails</h3>
                 </li>
                 <li class="col-4-12 equalElement">
                   <div class="fix-4-12 ae-6">
                     <img class="icon-47 skills-icon" src="images/uidesign.svg" alt="">
-                    <h3 class="uppercase">UI/UX Design</h3>
+                    <h3 class="uppercase skill">UI/UX Design</h3>
                 </li>
                 <li class="col-4-12 equalElement">
                   <div class="fix-4-12 ae-7">
                     <img class="icon-47 skills-icon" src="images/art.svg" alt="">
-                    <h3 class="uppercase">Art</h3>
+                    <h3 class="uppercase skill">Art</h3>
                   </div>
                 </li>
                 <li class="col-4-12 equalElement">
                   <div class="fix-4-12 ae-8">
                     <img class="icon-47 skills-icon" src="images/camera.svg" alt="">
-                    <h3 class="uppercase">Video</h3>
+                    <h3 class="uppercase skill">Video</h3>
                   </div>
                 </li>
               </ul>
@@ -153,116 +167,29 @@
       </div>
     </section>
 
-    <!-- Hypeist Project -->
-    <section class="slide fade kenBurns" name="project-hypeist">
-      <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <ul class="grid">
-              <li class="col-6-12">
-                <img class="hypeist-logo" src="images/hypeistlogo.png" alt="">
-              </li>
-              <li class="col-6-12 left project-info">
-                <h3 class="hypeist-title">Full Stack Developer at Hypeist</h3>
-                <p>- Built entire web application and admin panel using Meteor.js, MongoDB, Bootstrap</p>
-                <p>- Assisted in UI/UX Design of the product</p>
-                <p>- Responsible for the technical vision of the product</p>
-              </li>
-            </ul>
-            <a href="http://www.hypeist.com" target="_blank" class="button uppercase round project-button">Check it out</a>
-          </div>
-        </div>
-      </div>
-      <div class="background" style="background-image:url('images/footsteps.svg')"></div>
-    </section>
-
-    <!-- ThinkBaked Project -->
-    <section class="slide fade kenBurns" name="project-thinkbaked">
-      <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <ul class="grid">
-              <li class="col-6-12 left project-info thinkbaked-info">
-                <h3 class="thinkbaked-title">CoFounder at ThinkBaked</h3>
-                <p>- Built entire ecommerce website using Meteor.js, Reaction Commerce, MongoDB, and Bootstrap</p>
-                <p>- Involved in non-technical work including baking, packaging, marketing, and sales</p>
-              </li>
-              <li class="col-6-12">
-                <img class="thinkbaked-logo" src="images/thinkbakedlogo.svg" alt="">
-              </li>
-            </ul>
-            <a href="#" class="button uppercase round inactive-button">Under construction</a>
-          </div>
-        </div>
-      </div>
-      <div class="background" style="background-image:url('images/thinkbakedbg.jpg')"></div>
-    </section>
-
-    <!-- Infected Project -->
-    <section class="slide fade kenBurns" name="project-infected">
-      <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <ul class="grid">
-              <li class="col-6-12">
-                <img class="infected-logo" src="images/infectedlogo.svg" alt="">
-              </li>
-              <li class="col-6-12 left project-info infected-info">
-                <h3>The Infected</h3>
-                <p>- A fun horror (zombie) film I made in 2010 during my senior year at high school</p>
-                <p>- Won best picture at the Northern Valley Demarest High School Film Festival in 2010</p>
-              </li>
-            </ul>
-            <a href="#" class="button uppercase round popupTrigger project-button" data-popup-id="youtube">Watch it</a>
-          </div>
-        </div>
-      </div>
-      <div class="background" style="background-image:url('https://hd.unsplash.com/photo-1446729444801-31245ddba81a')"></div>
-    </section>
-
-    <!-- Popup Youtube -->
-    <div class="popup autoplay" data-popup-id="youtube">
-      <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-      <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <div class="fix-12-12">
-              <div class="embedVideo popupContent">
-                <iframe src="https://www.youtube.com/embed/pVjTyc8IEa8" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!-- Contact -->
     <section class="slide whiteSlide fade kenBurns" name="my-contact">
       <div class="content">
         <div class="container">
           <div class="wrap">
-            <ul class="grid">
-              <li class="col-12-12">
-                <h3 class="uppercase contact-header">Let's Talk</h3>
-                <p class="contact-email">Email me at kvnkwon@gmail.com</p>
-                <div class="social">
-                  <ul class="icons">
-                    <li class="instagram-icon">
-                      <a href="https://instagram.com/kvnkwon" target="_blank"><i class="fa fa-instagram fa-4x"></i></a>
-                    </li>
-                    <li class="facebook-icon">
-                      <a href="https://www.facebook.com/kevin.kwon.33" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
-                    </li>
-                    <li class="linkedin-icon">
-                      <a href="https://www.linkedin.com/in/kvnkwon" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
-                    </li>
-                    <li class="github-icon">
-                      <a href="https://github.com/kvnkwon" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
+            <h3 class="contact-header">Let's Talk</h3>
+            <p class="contact-email">kvnkwon@gmail.com</p>
+            <div class="social">
+              <ul class="icons">
+                <li class="instagram-icon">
+                  <a href="https://instagram.com/kvnkwon" target="_blank"><i class="fa fa-instagram fa-4x"></i></a>
+                </li>
+                <li class="facebook-icon">
+                  <a href="https://www.facebook.com/kevin.kwon.33" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a>
+                </li>
+                <li class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/kvnkwon" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
+                </li>
+                <li class="github-icon">
+                  <a href="https://github.com/kvnkwon" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -273,4 +200,3 @@
 
   </body>
 </html>
-
