@@ -23,10 +23,18 @@ html {
 
 .intro-content {
   font-family: 'Rubik', sans-serif;
-  font-size: 85px;
+  font-size: 64px;
   color: #000;
   font-weight: 700;
   text-align: left;
+}
+
+.love {
+  color: red;
+}
+
+.quote-author {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .text-center {
@@ -113,33 +121,17 @@ html {
 
 .projects-title {
   margin: 32px 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+
+.project-tab {
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 2px;
 }
 
 .projects-tab {
   margin: 0 auto;
-}
-
-.hypeist-logo {
-  width: 250px;
-}
-
-.thinkbaked-logo {
-  width: 300px;
-}
-
-.infected-logo {
-  width: 300px;
-}
-
-.project-info {
-  background-color: rgba(0, 0, 0, 0.60);
-  border-radius: 5px;
-  padding: 52px 0;
-}
-
-.project-button {
-  margin-top: 48px;
-  background-color: #0f7fec;
 }
 
 .inactive-button {
