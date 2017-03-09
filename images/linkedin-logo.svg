@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact" transform="translate(-887.000000, -435.000000)">
+            <g id="linkedin-logo" transform="translate(887.000000, 435.000000)">
+                <rect id="Rectangle" fill="#394037" x="0" y="0" width="60" height="60"></rect>
+                <g id="in" transform="translate(13.000000, 15.000000)" fill="#FFFFFF">
+                    <ellipse id="Oval-4" cx="4.29245283" cy="3.75" rx="4.29245283" ry="3.75"></ellipse>
+                    <rect id="Rectangle-11" x="0.660377358" y="10.3846154" width="7.9245283" height="19.6153846"></rect>
+                    <path d="M27.0378225,16.9777642 C27.0523928,16.9915202 27.0664398,17.005345 27.0798248,17.0192308 C27.128535,17.0697634 27.0853527,17.3765729 27.0802953,17.8846154 L27.0754717,17.8846154 L27.0754717,30 L35,30 L35,17.8846154 L34.9026699,17.8846154 C34.9077646,17.858475 34.9103589,17.8313013 34.9103589,17.803063 C34.9103589,16.3366533 34.006079,13.8237201 32.2214494,12.0598896 C30.8077996,10.6627153 28.7603554,9.80769231 26.745283,9.80769231 C23.8381226,9.80769231 21.2819684,11.1206095 19.8113208,13.1047648 L19.8113208,10.3846154 L11.8867925,10.3846154 L11.8867925,30 L19.8113208,30 L19.8113208,17.4420088 C19.8148821,17.4389315 19.8184551,17.435749 19.8220394,17.4324647 C19.8469123,15.4177634 21.0307128,15 23.2527453,15 C25.2964996,15 26.7862441,15.3534166 27.0378225,16.9777642 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
