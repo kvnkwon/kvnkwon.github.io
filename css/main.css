@@ -6,6 +6,77 @@ html {
   width: 350px;
 }
 
+.home-body-image {
+  width: 700px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.compact-body-image {
+  display: none;
+  width: 700px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.about-me-header {
+  margin: 0 auto;
+}
+
+.about-me-description {
+  text-align: left;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.about-me-description > p {
+  padding: 2em 0;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 21px;
+  font-weight: 700;
+  color: #394037;
+}
+
+.about-section-top {
+  padding-top: 100px;
+}
+
+.dark-background {
+  background-color: #394037;
+  margin-top: 2em;
+  padding-top: 34px;
+  padding-bottom: 120px;
+  color: #fff;
+}
+
+.service-header {
+  padding-top: 18px;
+  padding-bottom: 0;
+  font-size: 21px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.service {
+  font-size: 34px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.skills-tiles {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.skills-tiles > img {
+  padding: 0 32px;
+}
+
 .talk-button {
   margin-top: 26px;
   background: transparent;
@@ -199,9 +270,10 @@ html {
 .nav-links {
   margin-right: 18px;
   font-family: 'Rubik', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #889784;
 }
 
 .slides .panel.top {
@@ -296,6 +368,7 @@ html {
 .sidebar-links {
   margin: 14px 0;
   font-size: 28px !important;
+  font-family: 'Rubik', sans-serif;
 }
 
 #sidebar-home {
@@ -303,6 +376,15 @@ html {
 }
 
 @media (min-width:320px) and (max-width: 480px) {
+
+  .home-body-image {
+    display: none;
+  }
+
+  .compact-body-image {
+    display: block;
+  }
+
   .intro-header {
     font-size: 50px;
   }
