@@ -129,6 +129,10 @@ html {
   font-weight: 700;
 }
 
+.mobile-contact-portrait-container {
+  display: none;
+}
+
 .social-icons {
   display: inline-block;
   padding: 21px 0;
@@ -457,7 +461,9 @@ html {
   .second-projects-row {
     position: relative;
     top: 0;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 52px;
     text-align: center;
     display: block;
     left: 0;
@@ -485,19 +491,18 @@ html {
     position: relative;
     box-shadow: none;
     width: 100%;
+    display: none;
   }
 
-  .contact-portrait-container {
+  .mobile-contact-portrait-container {
     width: 100%;
     float: none;
+    display: block;
+    background-color: #394037;
   }
 
   .contact-portrait {
     margin: 100px auto;
-  }
-
-  .contact-info-container {
-    display: none;
   }
 
   .mobile-contact-info-container {
