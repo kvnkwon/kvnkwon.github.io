@@ -2,10 +2,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-.headshot {
-  width: 350px;
-}
-
 .home-body-image {
   width: 700px;
   position: absolute;
@@ -230,31 +226,6 @@ html {
   text-align: left;
 }
 
-.first-row {
-  margin-top: 30px;
-  margin-bottom: 60px;
-}
-
-.projects-title {
-  margin: 32px 0;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-}
-
-.project-tab {
-  font-family: 'Roboto Mono', monospace;
-  letter-spacing: 2px;
-}
-
-.projects-tab {
-  margin: 0 auto;
-}
-
-.inactive-button {
-  margin-top: 48px;
-  background-color: #444444;
-}
-
 .social-icon:hover {
   transform: scale(1.3);
 }
@@ -276,11 +247,6 @@ html {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #889784;
-}
-
-.slides .panel.top {
-  background: #000;
-  color: #fff;
 }
 /* set color for a button for different colored slides */
 .slides .panel.top .button.menuButton {
@@ -358,7 +324,7 @@ html {
 }
 
 .mobile-nav-btn {
-  color: #fff;
+  color: #889784;
   font-size: 36px !important;
 }
 
@@ -400,8 +366,13 @@ html {
     display: block;
   }
 
-  .mobile-about-me-desc {
-    padding: 2em;
+  .about-me-description {
+    padding: 0 32px;
+    width: 100%;
+  }
+
+  .about-me-description > p {
+    padding: 42px 0;
     font-family: 'Roboto Mono', monospace;
     font-size: 18px;
     font-weight: 700;
@@ -409,7 +380,7 @@ html {
   }
 
   .about-section-top {
-    padding-top: 230px;
+    padding-top: 68px;
   }
 
   .dark-background {
@@ -417,6 +388,8 @@ html {
     margin-top: 2em;
     padding-top: 34px;
     padding-bottom: 120px;
+    padding-left: 12px;
+    padding-right: 12px;
     color: #fff;
   }
 
@@ -430,47 +403,118 @@ html {
   }
 
   .skills-tiles > img {
-    width: 500px;
+    width: 100%;
+    padding: 0;
   }
 
-  .quote-author {
-    font-size: 21px;
+  .service-header {
+    font-size: 18px;
   }
 
-  .about-me-content{
+  .service {
+    font-size: 24px;
+  }
+
+  .wave-bg {
     display: none;
   }
 
-  .mobile-about-me-content {
+  .projects-slide {
+    background-color: #fff;
+    padding: 0 16px;
+  }
+
+  .portfolio-header {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+    padding-bottom: 42px;
+    left: 0;
+    right: 0;
+  }
+
+  .projects-row {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
     display: block;
+    left: 0;
+    right: 0;
   }
 
-  .first-row {
+  .second-projects-row {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    left: 0;
+    right: 0;
+  }
+
+  .project {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
     margin: 0;
+    padding: 21px 0;
   }
 
-  .hypeist-logo {
+  .white-portfolio {
+    color: #394037 !important;
+  }
+
+  .dark-portfolio-hr {
+    border-top: 3px solid #394037;
+  }
+
+  .contact-card {
+    margin: auto;
+    position: relative;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .contact-portrait-container {
+    width: 100%;
+    float: none;
+  }
+
+  .contact-portrait {
+    margin: 100px auto;
+  }
+
+  .contact-info-container {
+    display: none;
+  }
+
+  .mobile-contact-info-container {
+    width: 100%;
     margin-top: 40px;
+    padding: 0 16px;
+    margin-bottom: 80px;
+    text-align: center;
   }
 
-  .thinkbaked-info {
-    margin-top: 60px;
+  .mobile-contact-info-container .contact-email {
+    font-size: 24px;
+    padding: 18px 0;
   }
 
-  .button.uppercase {
-    font-size: 13px;
+  .mobile-contact-info-container .contact-hr {
+    width: 165px;
+    margin: 21px auto;
   }
 
-  .infected-logo {
-    margin-top: 60px;
-    margin-bottom: 30px;
+  .social-icons {
+    margin-top: 21px;
   }
 
-  .contact-header {
-    font-size: 30px !important;
+  .wrap {
+    padding: 0 !important;
   }
 
-  .contact-email {
-    font-size: 21px !important;
-  }
 }
