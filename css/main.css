@@ -328,8 +328,7 @@ html {
 }
 
 .mobile-nav-btn {
-  color: #889784;
-  font-size: 36px !important;
+  width: 36px;
 }
 
 .sidebar-close {
@@ -501,6 +500,7 @@ html {
     padding: 0 16px;
     margin-bottom: 80px;
     text-align: center;
+    display: block;
   }
 
   .mobile-contact-info-container .contact-email {
