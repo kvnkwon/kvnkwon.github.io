@@ -118,6 +118,10 @@ html {
   padding-top: 95px
 }
 
+.mobile-contact-info-container {
+  display: none;
+}
+
 .contact-email {
   color: #0CC24B;
   font-size: 34px;
