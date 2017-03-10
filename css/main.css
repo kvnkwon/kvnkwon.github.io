@@ -487,10 +487,10 @@ html {
   }
 
   .contact-card {
-    margin: auto;
-    position: relative;
-    box-shadow: none;
-    width: 100%;
+    display: none;
+  }
+
+  .contact-portrait-container {
     display: none;
   }
 
