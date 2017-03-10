@@ -331,6 +331,12 @@ html {
   width: 36px;
 }
 
+.sidebarTrigger {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+
 .sidebar-close {
   color: #fff !important;
   font-size: 36px !important;
