@@ -73,6 +73,21 @@ html {
   padding: 0 32px;
 }
 
+.skill-progress {
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.skill-progress > h3 {
+  color: #61675f;
+}
+
+.progress-bar {
+  max-width: 620px;
+  margin-top: 24px;
+}
+
 .contact-card {
   margin: auto;
   position: absolute;
@@ -176,7 +191,7 @@ html {
 .second-projects-row {
   position: absolute;
   z-index: 3;
-  top: 700px;
+  top: 750px;
   display: block;
   left: 0;
   right: 0;
