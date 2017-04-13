@@ -2,6 +2,10 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+.home-slide {
+  background-color: #394037 !important;
+}
+
 .home-body-image {
   width: 700px;
   position: absolute;
