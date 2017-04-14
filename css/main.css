@@ -7,9 +7,18 @@ html {
 }
 
 .home-body-image {
-  width: 700px;
+  width: 450px;
   position: absolute;
-  bottom: 0;
+  top: 350px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%)
+}
+
+.home-header {
+  width: 600px;
+  position: absolute;
+  top: 220px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%)
@@ -273,7 +282,7 @@ html {
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #889784;
+  color: #394037;
 }
 /* set color for a button for different colored slides */
 .slides .panel.top .button.menuButton {
