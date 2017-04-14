@@ -24,16 +24,6 @@ html {
   transform: translateX(-50%)
 }
 
-.compact-body-image {
-  display: none;
-  width: 700px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
-}
-
 .about-me-header {
   margin: 0 auto;
 }
@@ -387,11 +377,12 @@ html {
 @media (min-width:320px) and (max-width: 480px) {
 
   .home-body-image {
-    display: none;
+    width: 300px;
+    top: 300px;
   }
 
-  .compact-body-image {
-    display: block;
+  .home-header {
+    width: 300px;
   }
 
   .intro-header {
