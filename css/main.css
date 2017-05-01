@@ -87,8 +87,8 @@ html {
 }
 
 .progress-bar {
-  max-width: 620px;
-  margin-top: 24px;
+  max-width: 700px;
+  margin: 24px auto;
 }
 
 .contact-card {
