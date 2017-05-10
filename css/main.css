@@ -162,7 +162,7 @@ html {
 
 .projects-slide {
   background-color: #394037;
-  height: 1200px;
+  height: 1600px;
 }
 
 .wave-bg {
@@ -194,7 +194,16 @@ html {
 .second-projects-row {
   position: absolute;
   z-index: 3;
-  top: 750px;
+  top: 700px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.third-projects-row {
+  position: absolute;
+  z-index: 3;
+  top: 1100px;
   display: block;
   left: 0;
   right: 0;
