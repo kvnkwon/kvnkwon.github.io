@@ -1,29 +1,31 @@
 <!doctype html>
 <html>
-  <head>
-     <meta charset="UTF-8">
-     <meta name="description" content="Developer, Filmmaker, Artist">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="description" content="Developer, Filmmaker, Artist">
     <meta name="author" content="Kevin Kwon">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-     <title>Kevin Kwon</title>
-     <link rel="icon" type="image/png" href="favicon.png">
+    <title>Kevin Kwon</title>
+    <link rel="icon" type="image/png" href="favicon.png">
 
-     <!-- Fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Eczar:700|Roboto+Mono:400,700|Rubik:400,700" rel="stylesheet">
-     <!-- Styles -->
-     <link rel="stylesheet" href="css/slides.min.css" name="main-styles">
-     <link rel="stylesheet" href="css/main.css">
+		<!-- Fonts and Material Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Rubik:400,700" rel="stylesheet" type="text/css"/>
 
-     <!-- Scripts -->
-     <script src="http://code.jquery.com/jquery-2.2.2.min.js" name="jquery"></script>
-     <script src="https://use.fontawesome.com/e42c637c6c.js"></script>
-     <script src="js/slides.min.js" type="text/javascript" name="main-scripts"></script>
-     <script src="js/typed.js"></script>
-     <script src="js/main.js"></script>
-  </head>
 
-  <body class="slides simplifiedMobile scroll fast animated">
+		<!-- Styles -->
+		<link href="css/slides.min.css" rel="stylesheet" type="text/css">
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="js/slides.min.js" type="text/javascript" name="main-scripts"></script>
+		<script src="js/main.js" type="text/javascript" name="custom-scripts"></script>
+
+	</head>
+
+	<body class="slides simplifiedMobile scroll fast animated">
 
     <!-- Side Progress Nav -->
     <nav class="side hideForPhone">
@@ -54,7 +56,7 @@
 
     <!-- Mobile Side Nav -->
     <nav class="sidebar" data-sidebar-id="mobile-sidebar">
-      <div class="close sidebar-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+      <div class="close sidebar-close"><img class="close-btn" src="images/close.svg" alt="x"></div>
       <div class="content">
         <ul class="mainMenu uppercase">
           <li><a class="sidebar-links" id="sidebar-home" href="#home">Home</a></li>
@@ -65,108 +67,36 @@
       </div>
     </nav>
 
-    <!-- Home Content -->
-    <section class="slide whiteSlide kenBurns" name="home">
+    <!-- Home -->
+    <section class="slide kenBurns" name="home">
       <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <img class="home-header" src="images/enter-my-world.svg" alt="">
-            <a href="#about-me"><img class="home-body-image" src="images/vr-portrait.png" data-src="images/vr-portrait.png" data-hover="images/vr-portrait-hover.png" alt=""></a>
-          </div>
+        <div class="home-sunset">
+          <a href="#about-me"><img src="images/home-title.svg" alt="Enter My World" class="home-title"></a>
+          <img src="images/boat.png" alt="" class="sailboat">
         </div>
       </div>
     </section>
 
-    <!-- About Me Content -->
-    <section class="slide whiteSlide fade kenBurns" name="about-me">
+    <!-- Underwater -->
+    <section class="slide kenBurns" name="about-me">
       <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <img class="about-me-header about-section-top" src="images/about-me-header.svg" alt="">
-            <div class="about-me-description">
-              <p>I am a Filmmaker, Developer, Product Designer, and VR Advocate with early startup experience and a passion for helping people escape into experiences and worlds that I created. When I'm not building things, I love playing sports and video games.</p>
+        <div class="underwater">
+          <img class="fish" src="images/fish.svg" alt="">
+          <img class="tuna" src="images/tuna.png" alt="">
+          <div class="content-wrap">
+            <div class="about-me">
+              <h3 class="section-title">- About me -</h3>
+              <p class="about-me-content">I am a Filmmaker, Developer, Product Designer, and VR Advocate with early startup experience and a passion for helping people escape into experiences and worlds that I created. When I'm not building things, I love playing sports, taking photos, and playing video games.</p>
             </div>
-            <img class="about-me-header" src="images/about-skills-header.svg" alt="">
-            <div class="about-skills-section">
-              <div class="skills-tiles">
-                <img src="images/ui-skill-tile.svg" alt="">
-                <img src="images/research-skill-tile.svg" alt="">
-                <img src="images/html-skill-tile.svg" alt="">
-              </div>
-              <div class="skills-tiles">
-                <img src="images/js-skill-tile.svg" alt="">
-                <img src="images/art-skill-tile.svg" alt="">
-                <img src="images/media-skill-tile.svg" alt="">
-              </div>
-              <div class="skill-progress">
-                <img src="images/vr-progress.svg" alt="vr skill progress bar" class="progress-bar">
-              </div>
-            </div>
-            <div class="dark-background">
-              <img class="about-me-header" src="images/about-services-header.svg" alt="">
-              <p class="service-header">What I can do for you</p>
-              <h3 class="service">USER RESEARCH</h3>
-              <h3 class="service">UI DESIGN</h3>
-              <h3 class="service">WEB/MOBILE APP DEVELOPMENT</h3>
-              <h3 class="service">ILLUSTRATION</h3>
-              <h3 class="service">COPYWRITING</h3>
-              <h3 class="service">BRANDING</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Projects Overview Page -->
-    <section class="slide whiteSlide kenBurns" name="my-projects">
-      <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <div class="projects-slide">
-              <img class="about-me-header portfolio-header" src="images/portfolio-header.svg" alt="">
-              <img class="wave-bg" src="images/wave-bg.svg" alt="">
-              <div class="projects-row">
-                <div class="ae-1 project">
-                  <h3><a href="https://uxdesign.cc/vsco-a-ux-case-study-f5ccd35c725a">VSCO: UX Case Study</a></h3>
-                  <p>Designer</p>
-                  <hr class="portfolio-hr">
-                  <a href="https://uxdesign.cc/vsco-a-ux-case-study-f5ccd35c725a"><img class="project-image" src="images/vsco-image.png" alt=""></a>
-                </div>
-                <div class="ae-2 project">
-                  <h3><a href="http://kevinkwon.io/hypeist" target="_blank">Hypeist</a></h3>
-                  <p>Designer + Developer</p>
-                  <hr class="portfolio-hr">
-                  <a href="http://kevinkwon.io/hypeist" target="_blank"><img class="project-image" src="images/hypeist-tile.png" alt=""></a>
-                </div>
-              </div>
-              <div class="second-projects-row">
-                <div class="ae-3 project">
-                  <h3><a href="http://kevinkwon.io/ramen-hero" target="_blank">Ramen Hero</a></h3>
-                  <p class="white-portfolio">Designer</p>
-                  <hr class="dark-portfolio-hr">
-                  <a href="http://kevinkwon.io/ramen-hero" target="_blank"><img class="project-image" src="images/ramen-hero-thumbnail.png" alt=""></a>
-                </div>
-                <div class="ae-4 project">
-                  <h3><a href="http://kevinkwon.io/youcaring" target="_blank">YouCaring</a></h3>
-                  <p class="white-portfolio">Designer</p>
-                  <hr class="dark-portfolio-hr">
-                  <a href="http://kevinkwon.io/youcaring" target="_blank"><img class="project-image" src="images/youcaring-thumbnail.png" alt=""></a>
-                </div>
-              </div>
-              <div class="third-projects-row">
-                <div class="ae-5 project">
-                  <h3><a href="http://hoopallstats.meteorapp.com/" target="_blank">Hoop AllStats</a></h3>
-                  <p class="white-portfolio">Designer + Developer</p>
-                  <hr class="dark-portfolio-hr">
-                  <a href="http://hoopallstats.meteorapp.com/" target="_blank"><img class="project-image" src="images/hoopallstats-tile.png" alt=""></a>
-                </div>
-                <div class="ae-6 project">
-                  <h3><a href="http://kevinkwon.io/finless-foods" target="_blank">Finless Foods</a></h3>
-                  <p class="white-portfolio">Designer</p>
-                  <hr class="dark-portfolio-hr">
-                  <a href="http://kevinkwon.io/finless-foods" target="_blank"><img class="project-image" src="images/finless-thumbnail.png" alt=""></a>
-                </div>
+            <div class="my-skills">
+              <h3 class="section-title">- My skills -</h3>
+              <div class="skills-row">
+                <img class="skills-tile" src="images/ui-tile.svg" alt="">
+                <img class="skills-tile" src="images/user-research-tile.svg" alt="">
+                <img class="skills-tile" src="images/code-tile.svg" alt="">
+                <img class="skills-tile" src="images/illustration-tile.svg" alt="">
+                <img class="skills-tile" src="images/photo-tile.svg" alt="">
+                <img class="skills-tile" src="images/branding-tile.svg" alt="">
               </div>
             </div>
           </div>
@@ -174,52 +104,47 @@
       </div>
     </section>
 
-    <!-- Contact -->
-    <section class="slide whiteSlide kenBurns" name="my-contact">
+    <!-- Caves -->
+    <section class="slide kenBurns" name="my-projects">
       <div class="content">
-        <div class="container">
-          <div class="wrap">
-            <div class="contact-card">
-              <div class="contact-portrait-container">
-                <img class="contact-portrait" src="images/prof-pic.png" alt="">
-              </div>
-              <div class="contact-info-container">
-                <div class="center-info">
-                  <h3 class="contact-info-header">Let's talk!</h3>
-                  <hr class="contact-hr">
-                  <a class="contact-email" href="mailto:kevinkwon.design@gmail.com?Subject=Hello" target="_top">kevinkwon.design@gmail.com</a>
-                  <div class="social-icons">
-                    <a href="https://instagram.com/kvnkwon" target="_blank"><img class="social-icon" src="images/instagram-logo.svg" alt=""></a>
-                    <a href="https://www.facebook.com/kevin.kwon.33" target="_blank"><img class="social-icon" src="images/facebook-logo.svg" alt=""></a>
-                    <a href="https://github.com/kvnkwon" target="_blank"><img class="social-icon" src="images/github-logo.svg" alt=""></a>
-                    <a href="https://www.linkedin.com/in/kvnkwon" target="_blank"><img class="social-icon" src="images/linkedin-logo.svg" alt=""></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="mobile-contact-portrait-container">
-              <img class="contact-portrait" src="images/prof-pic.png" alt="">
-            </div>
-            <div class="mobile-contact-info-container">
-              <div class="center-info">
-                <h3 class="contact-info-header">Let's talk!</h3>
-                <hr class="contact-hr">
-                <a class="contact-email" href="mailto:kevinkwon.design@gmail.com?Subject=Hello" target="_top">kevinkwon.design@gmail.com</a>
-                <div class="social-icons">
-                  <a href="https://instagram.com/kvnkwon" target="_blank"><img class="social-icon" src="images/instagram-logo.svg" alt=""></a>
-                  <a href="https://www.facebook.com/kevin.kwon.33" target="_blank"><img class="social-icon" src="images/facebook-logo.svg" alt=""></a>
-                  <a href="https://github.com/kvnkwon" target="_blank"><img class="social-icon" src="images/github-logo.svg" alt=""></a>
-                  <a href="https://www.linkedin.com/in/kvnkwon" target="_blank"><img class="social-icon" src="images/linkedin-logo.svg" alt=""></a>
-                </div>
-              </div>
+        <div class="caves">
+          <div class="my-portfolio">
+            <h3 class="section-title">- My Portfolio -</h3>
+            <div class="projects">
+              <a href="http://kevinkwon.io/hypeist" target="_blank"><img class="project-tile" src="images/hypeist-tile.png" alt=""></a>
+              <a href="https://uxdesign.cc/vsco-a-ux-case-study-f5ccd35c725a" target="_blank"><img class="project-tile" src="images/vsco-image.png" alt=""></a>
+              <a href="http://kevinkwon.io/youcaring" target="_blank"><img class="project-tile" src="images/youcaring-thumbnail.png" alt=""></a>
+              <a href="http://kevinkwon.io/ramen-hero" target="_blank"><img class="project-tile" src="images/ramen-hero-thumbnail.png" alt=""></a>
+              <a href="http://kevinkwon.io/finless-foods" target="_blank"><img class="project-tile" src="images/finless-thumbnail.png" alt=""></a>
+              <a href="http://hoopallstats.meteorapp.com/" target="_blank"><img class="project-tile" src="images/hoopallstats-tile.png" alt=""></a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Preloader -->
+    <!-- Space -->
+    <section class="slide kenBurns" name="my-contact">
+      <div class="content">
+        <div class="space">
+          <div class="my-contact">
+            <h3 class="section-title">- Let's Talk! -</h3>
+            <h4 class="contact-subheader">email me at</h4>
+            <a href="mailto:kevinkwon.design@gmail.com?Subject=Hello" target="_top"><h3 class="contact-email">kevinkwon.design@gmail.com</h3></a>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/kevin.kwon.33" target="_blank"><img class="social" src="images/facebook-logo.png" alt=""></a>
+              <a href="https://instagram.com/kvnkwon" target="_blank"><img class="social" src="images/instagram-logo.png" alt=""></a>
+              <a href="https://github.com/kvnkwon" target="_blank"><img class="social" src="images/github-logo.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/kvnkwon" target="_blank"><img class="social" src="images/linkedin-logo.png" alt=""></a>
+            </div>
+          </div>
+          <a href="#home"><img class="rocket" src="images/rocket.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+
+
     <div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
 
-  </body>
+	</body>
 </html>

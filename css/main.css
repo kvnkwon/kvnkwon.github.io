@@ -2,271 +2,18 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
-.home-slide {
-  background-color: #394037 !important;
-}
-
-.home-body-image {
-  width: 280px;
-  position: absolute;
-  top: 300px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
-}
-
-.home-header {
-  width: 600px;
-  position: absolute;
-  top: 200px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
-}
-
-.about-me-header {
-  margin: 0 auto;
-}
-
-.about-me-description {
-  text-align: left;
-  width: 650px;
-  margin: 0 auto;
-}
-
-.about-me-description > p {
-  padding: 2em 0;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 21px;
-  font-weight: 700;
-  color: #394037;
-}
-
-.about-section-top {
-  padding-top: 100px;
-}
-
-.dark-background {
-  background-color: #394037;
-  margin-top: 2em;
-  padding-top: 34px;
-  padding-bottom: 120px;
+/* general */
+.section-title {
+  text-transform: uppercase;
   color: #fff;
-}
-
-.service-header {
-  padding-top: 38px;
-  padding-bottom: 16px;
-  font-size: 21px;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.service {
-  font-size: 34px;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.skills-tiles {
-  display: inline-block;
-  margin: 0 auto;
-  padding: 2em 0;
-}
-
-.skills-tiles > img {
-  padding: 0 32px;
-}
-
-.skill-progress {
-  font-family: 'Roboto Mono', monospace;
-  margin-top: 60px;
-  margin-bottom: 90px;
-}
-
-.skill-progress > h3 {
-  color: #61675f;
-}
-
-.progress-bar {
-  max-width: 700px;
-  margin: 24px auto;
-}
-
-.contact-card {
-  margin: auto;
-  position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
-  height: 450px;
-  width: 900px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.contact-portrait-container {
-  height: 100%;
-  width: 350px;
-  background-color: #394037;
-  float: left;
-}
-
-.contact-portrait {
-  margin: 100px auto;
-}
-
-.contact-info-header {
-  margin-top: 21px;
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #889784;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 700;
-}
-
-.contact-hr {
-  border-top: 3px solid #889784;
-  width: 165px;
-  margin: 21px 0;
-}
-
-.contact-info-container {
-  height: 100%;
-  width: 550px;
-  float: right;
-  text-align: left;
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-top: 95px
-}
-
-.mobile-contact-info-container {
-  display: none;
-}
-
-.contact-email {
-  color: #0CC24B;
-  font-size: 28px;
   font-family: 'Rubik', sans-serif;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 2px;
+  font-size: 36px;
 }
 
-.mobile-contact-portrait-container {
-  display: none;
-}
-
-.social-icons {
-  display: inline-block;
-  padding: 21px 0;
-}
-
-.social-icon {
-  padding: 0 8px;
-}
-
-.projects-slide {
-  background-color: #394037;
-  height: 1600px;
-}
-
-.wave-bg {
-  position: absolute;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.portfolio-header {
-  z-index: 2;
-  position: absolute;
-  top: 160px;
-  margin: auto;
-  left: 0;
-  right: 0;
-}
-
-.projects-row {
-  position: absolute;
-  z-index: 3;
-  top: 300px;
-  display: block;
-  left: 0;
-  right: 0;
-}
-
-.second-projects-row {
-  position: absolute;
-  z-index: 3;
-  top: 700px;
-  display: block;
-  left: 0;
-  right: 0;
-}
-
-.third-projects-row {
-  position: absolute;
-  z-index: 3;
-  top: 1100px;
-  display: block;
-  left: 0;
-  right: 0;
-}
-
-.project {
-  text-align: center;
-  width: 350px;
-  display: inline-block;
-  margin: 0 48px;
-}
-
-.project > h3 {
-  color: #0CC34B;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.project > p {
-  font-size: 18px;
-  font-weight: 700;
-  color: #394037;
-  font-family: 'Roboto Mono', monospace;
-}
-
-.white-portfolio {
-  color: #fff !important;
-}
-
-.portfolio-hr {
-  border-top: 3px solid #394037;
-  width: 100px;
-  margin: 18px auto;
-}
-
-.dark-portfolio-hr {
-  border-top: 3px solid #fff;
-  width: 100px;
-  margin: 18px auto;
-}
-
-.project-image {
-  width: 100%;
-  height: 200px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.text-center {
-  text-align: center !important;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.social-icon:hover {
-  transform: scale(1.3);
-}
-
-.social-icon {
-  transition: all .2s ease-in-out;
+.content-wrap {
+  padding: 0 100px;
 }
 
 /* nav */
@@ -281,287 +28,408 @@ html {
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #394037;
-}
-/* set color for a button for different colored slides */
-.slides .panel.top .button.menuButton {
-  color: #303030;
-  background:#fff;
-  font-family: 'Raleway';
-}
-
-.panel .button {
-  padding-left: 14px;
-  padding-right: 14px;
-}
-
-.page-loaded .slides.whiteSlide .panel.top {
-  background:rgba(255,255,255,.975);
-  color:#303030;
-}
-.page-loaded .slides.whiteSlide .panel.top svg {
-  fill:#303030;
-}
-.page-loaded .slides.whiteSlide .panel.top .button.menuButton {
-  background:#303030;
-  color:#fff;
-}
-
-.page-loaded .slides.whiteSlide .panel.top .mobile-nav-btn {
-  color: #333;
-}
-
-/* transparent for the first slide */
-.slides.firstSlide .panel.top {
-  background:transparent;
-  box-shadow:none;
-}
-
-/* swap panels on last slide */
-.slides:not(.lastSlide) .panel.bottom.customPanel,
-.slides.lastSlide .panel.bottom:not(.customPanel) {
-  opacity:0;
-  -webkit-transform: translate3d(0,100%,0) !important;
-  transform: translate3d(0,100%,0) !important;
-}
-
-.navigation li {
-  text-align:right;
-  padding: 0 9px;
-  margin: 0 -9px 0 -24px;
-}
-
-.side.left .navigation li {
-  text-align:left;
-}
-
-.navigation li:after {
-  -webkit-transition:0.25s;
-  transition:0.25s;
-  display:inline-block;
-  height:3px;
-}
-.navigation li.selected:after {
-  width:30px;
-}
-
-
-.navigation li:before {
-  -webkit-transition:0.25s;
-  transition:0.25s;
-  opacity:0;
-}
-.navigation li:hover:before {
-  -webkit-transition:0.25s;
-  transition:0.25s;
-  opacity:1;
-  visibility:visible;
+  color: #fff;
 }
 
 .mobile-nav-btn {
   width: 36px;
 }
 
-.sidebarTrigger {
-  background-color: #fff;
-  border: none;
-  padding: 0;
+/* home */
+.home-sunset {
+  text-align: center;
+  height: 1100px;
+  width: 100%;
+  background-image: url('../images/sunset-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.sidebar-close {
-  color: #fff !important;
-  font-size: 36px !important;
+.home-title {
+  margin-top: 285px;
 }
 
-.sidebar-links {
-  margin: 14px 0;
-  font-size: 28px !important;
-  font-family: 'Rubik', sans-serif;
+.sailboat {
+  position: absolute;
+  top: 570px;
+  left: 400px;
+  -webkit-animation: sailboat-move 1s 1s ease-out forwards;
+
+  animation-duration: 130s;
+  -webkit-animation-duration: 130s;
 }
 
-#sidebar-home {
-  margin-top: 60px;
+@-webkit-keyframes sailboat-move {
+    100% { left: 100%;}
+}
+
+/* underwater */
+.underwater {
+  height: 1400px;
+  width: 100%;
+  background-image: url('../images/underwater-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about-me {
+  padding-top: 200px;
+}
+
+.about-me-content {
+  font-size: 22px;
+  color: #fff399;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400px;
+  max-width: 800px;
+  margin-top: 34px;
+  margin-bottom: 64px;
+  line-height: 33px;
+}
+
+.skills-row {
+  display: inline-block;
+  width: 800px;
+}
+
+.skills-tile {
+  margin-right: 24px;
+  margin-top: 24px;
+  width: 150px;
+  height: 150px;
+}
+
+.fish {
+  position: absolute;
+  top: 350px;
+  right: 80px;
+  -webkit-animation: fish-move 2s 2s ease-out forwards;
+
+  animation-duration: 180s;
+  -webkit-animation-duration: 180s;
+}
+
+@-webkit-keyframes fish-move {
+    100% { right: 100%;}
+}
+
+.tuna {
+  position: absolute;
+  top: 900px;
+  left: 80px;
+  -webkit-animation: tuna-move 3s 3s ease-out forwards;
+
+  animation-duration: 220s;
+  -webkit-animation-duration: 220s;
+}
+
+@-webkit-keyframes tuna-move {
+    100% { left: 100%;}
+}
+
+/* caves */
+
+.caves {
+  height: 1400px;
+  width: 100%;
+  background-image: url('../images/caves-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.my-portfolio {
+  text-align: center;
+  padding-top: 280px;
+}
+
+.projects {
+  width: 850px;
+  margin: 34px auto;
+}
+
+.project-tile {
+  width: 350px;
+  height: 200px;
+  margin: 34px;
+}
+
+/* space */
+
+.space {
+  height: 1000px;
+  width: 100%;
+  background-image: url('../images/space-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.my-contact {
+  text-align: center;
+  padding-top: 350px;
+}
+
+.rocket {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 250px;
+  bottom: 0;
+}
+
+.contact-subheader {
+  margin-top: 34px;
+  margin-bottom: 18px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400px;
+  font-size: 28px;
+  opacity: 0.5;
+}
+
+.contact-email {
+  font-size: 34px;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff399;
+  font-weight: 400;
+}
+
+.social-icons {
+  position: absolute;
+  display: inline-block;
+  width: 700px;
+  margin: 28px auto;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.social {
+  width: 60px;
+  height: 60px;
+  margin: 0 18px;
 }
 
 @media (min-width:320px) and (max-width: 480px) {
 
-  .home-body-image {
-    width: 200px;
-    top: 300px;
-  }
-
-  .home-header {
-    width: 300px;
-  }
-
-  .progress-bar {
+  /* home */
+  .sailboat {
     display: none;
   }
 
-  .intro-header {
-    font-size: 50px;
-  }
-
-  .intro-content {
-    font-size: 32px;
-  }
-
-  .about-me-header {
-    margin: 0 auto;
-    display: block;
-  }
-
-  .about-me-description {
-    padding: 0 32px;
-    width: 100%;
-  }
-
-  .about-me-description > p {
-    padding: 42px 0;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 18px;
-    font-weight: 700;
-    color: #394037;
-  }
-
-  .about-section-top {
-    padding-top: 68px;
-  }
-
-  .dark-background {
-    background-color: #394037;
-    margin-top: 2em;
-    padding-top: 34px;
-    padding-bottom: 120px;
-    padding-left: 12px;
-    padding-right: 12px;
-    color: #fff;
-  }
-
-  .about-skills-section {
-    text-align: center;
-    padding: 2em 0;
-  }
-
-  .skills-tiles {
-    padding: 0;
-  }
-
-  .skills-tiles > img {
-    width: 100%;
-    padding: 0;
-  }
-
-  .service-header {
-    font-size: 18px;
-  }
-
-  .service {
+  /* general */
+  .section-title {
     font-size: 24px;
   }
 
-  .wave-bg {
+  .close-btn {
+    width: 28px;
+  }
+  .sidebar {
+    background-color: #000;
+  }
+
+  .sidebar-links {
+    margin: 14px 0;
+    font-size: 28px !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400 !important;
+  }
+
+  #sidebar-home {
+    margin-top: 60px;
+  }
+
+  /* underwater */
+  .fish {
     display: none;
   }
 
-  .projects-slide {
-    background-color: #fff;
-    padding: 0 16px;
-  }
-
-  .portfolio-header {
-    position: relative;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 72px;
-    padding-bottom: 42px;
-    left: 0;
-    right: 0;
-  }
-
-  .projects-row {
-    position: relative;
-    top: 0;
-    margin: 0 auto;
-    text-align: center;
-    display: block;
-    left: 0;
-    right: 0;
-  }
-
-  .second-projects-row {
-    position: relative;
-    top: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 52px;
-    text-align: center;
-    display: block;
-    left: 0;
-    right: 0;
-  }
-
-  .project {
-    text-align: center;
-    width: 100%;
-    display: inline-block;
-    margin: 0;
-    padding: 21px 0;
-  }
-
-  .white-portfolio {
-    color: #394037 !important;
-  }
-
-  .dark-portfolio-hr {
-    border-top: 3px solid #394037;
-  }
-
-  .contact-card {
+  .tuna {
     display: none;
   }
 
-  .contact-portrait-container {
-    display: none;
+  /* caves */
+  .caves {
+    background-image: url('../images/mobile-caves-bg.png');
   }
 
-  .mobile-contact-portrait-container {
-    width: 100%;
-    float: none;
-    display: block;
-    background-color: #394037;
-  }
-
-  .contact-portrait {
-    margin: 100px auto;
-  }
-
-  .mobile-contact-info-container {
-    width: 100%;
-    margin-top: 40px;
-    padding: 0 16px;
-    margin-bottom: 80px;
+  .my-portfolio {
     text-align: center;
-    display: block;
+    padding-top: 150px;
   }
 
-  .mobile-contact-info-container .contact-email {
+  .projects {
+    width: 100%;
+    margin: 34px auto;
+  }
+
+  /* space */
+
+  .space {
+    height: 667px;
+    background-image: url('../images/mobile-space.png');
+  }
+
+  .my-contact {
+    text-align: center;
+    padding-top: 160px;
+  }
+
+  .rocket {
+    width: 130px;
+  }
+
+  .contact-subheader {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    opacity: 0.7;
+  }
+
+  .contact-email {
     font-size: 21px;
-    padding: 18px 0;
-  }
-
-  .mobile-contact-info-container .contact-hr {
-    width: 165px;
-    margin: 21px auto;
   }
 
   .social-icons {
-    margin-top: 21px;
+    width: 350px;
   }
 
-  .wrap {
-    padding: 0 !important;
+  .social {
+    width: 50px;
+    height: 50px;
+    margin: 0 8px;
+  }
+
+}
+
+@media (min-width:320px) and (max-width: 410px) {
+
+  /* general */
+  .content-wrap {
+    padding: 0 18px;
+  }
+
+  /* home */
+  .home-sunset {
+    height: 667px;
+    background-image: url('../images/mobile-sunset-bg.png');
+  }
+
+  .home-title {
+    margin-top: 220px;
+    width: 300px;
+  }
+
+  /* underwater */
+  .underwater {
+    height: 1150px;
+    background-image: url('../images/mobile-underwater-bg.png');
+    text-align: center;
+  }
+
+  .about-me {
+    padding-top: 90px;
+  }
+
+  .about-me-content {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 34px;
+  }
+
+  .skills-row {
+    display: inline-block;
+    max-width: 290px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .skills-tile {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    width: 125px;
+    height: 125px;
+  }
+
+  /* caves */
+  .caves {
+    height: 700px;
+  }
+
+  .project-tile {
+    width: 150px;
+    height: 90px;
+    margin: 16px 8px;
+  }
+
+}
+
+@media (min-width:410px) and (max-width: 480px) {
+
+  /* general */
+  .content-wrap {
+    padding: 0 24px;
+  }
+
+  /* home */
+  .home-sunset {
+    height: 736px;
+    background-image: url('../images/mobile-sunset-bg.png');
+  }
+
+  .home-title {
+    margin-top: 250px;
+    width: 320px;
+  }
+
+  /* underwater */
+  .underwater {
+    height: 1250px;
+    background-image: url('../images/mobile-underwater-bg.png');
+    text-align: center;
+  }
+
+  .about-me {
+    padding-top: 80px;
+  }
+
+  .about-me-content {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 44px;
+  }
+
+  .skills-row {
+    display: inline-block;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .skills-tile {
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    width: 150px;
+    height: 150px;
+  }
+
+  /* caves */
+  .caves {
+    height: 780px;
+  }
+
+  .project-tile {
+    width: 160px;
+    height: 90px;
+    margin: 16px 8px;
   }
 
 }
