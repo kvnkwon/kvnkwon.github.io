@@ -433,3 +433,25 @@ html {
   }
 
 }
+
+@media (min-width:1000px) and (max-width:1550px) {
+
+  /* home */
+  .home-title {
+    margin-top: 305px;
+  }
+
+}
+
+@media (min-width:1800px) {
+
+  /* home */
+  .home-sunset {
+    height: 1200px;
+  }
+
+  .home-title {
+    margin-top: 285px;
+  }
+
+}
