@@ -123,7 +123,7 @@
   }
 }
 
-@media (min-width:481px) and (max-width: 1024px) {
+@media (min-width:481px) and (max-width: 1022px) {
   .work-tile {
     height: 150px;
     margin-bottom: 1.5em;
@@ -136,7 +136,7 @@
   .work-row {
     max-width: 60%;
   }
-  
+
   .ocean {
     height: 0%;
   }
