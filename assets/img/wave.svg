@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="198px" viewBox="0 0 1600 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="1.71454586%" x2="50%" y2="49.0211796%" id="linearGradient-1">
+            <stop stop-color="#1B4BD1" stop-opacity="0.849892437" offset="0%"></stop>
+            <stop stop-color="#1B4BD1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-16" transform="translate(-192.000000, -171.000000)" fill="url(#linearGradient-1)">
+            <g id="https___s3-us-west-2.amazonaws.com_s.cdpn.io_85486_wave.svg-0" transform="translate(192.000000, 171.000000)">
+                <path d="M0.005,121 C311,121 409.898,-0.25 811,-5.42101086e-20 C1211,-5.42101086e-20 1311,121 1600,121 L1600,198 L0,198 C0,198 0.005,150 0.005,121 Z" id="Shape" transform="translate(800.000000, 98.999807) scale(-1, 1) translate(-800.000000, -98.999807) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

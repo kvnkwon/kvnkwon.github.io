@@ -1,461 +1,450 @@
-html {
-  -webkit-font-smoothing: antialiased;
+.slides,
+.slides p {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
 }
-
-/* general */
-.section-title {
-  text-transform: uppercase;
-  color: #fff;
+.slides h1,
+.slides h2,
+.slides h3,
+.slides h4,
+.slides h5,
+.slides h6 {
   font-family: 'Rubik', sans-serif;
-  font-weight: 800;
-  letter-spacing: 2px;
-  font-size: 36px;
+  font-weight: 700;
 }
 
-.content-wrap {
-  padding: 0 100px;
+.slides .slides-form {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 600;
+}
+
+.slides .button {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+}
+
+/* global */
+hr {
+  border-top: 5px solid #2F30B8;
+  width: 120px;
+  margin: 2em 0;
+}
+
+.primary {
+  background-color: #456DFF !important;
 }
 
 /* nav */
-.nav-logo {
+
+.my-nav {
+  padding-left: calc(8% + 15px);
+  padding-right: calc(8% + 15px);
+}
+
+.panel svg {
   width: 80px;
-  margin-left: 12px;
+  height: 80px;
 }
 
-.nav-links {
-  margin-right: 18px;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 800;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #fff;
+.slides.whiteSlide .panel {
+  color: #ffffff;
 }
 
-.mobile-nav-btn {
-  width: 34px;
+
+/* Landing */
+
+.landing {
+  background-color: #fff !important;
+  padding-bottom: 3em;
+  margin-bottom: -2px;
 }
 
-/* home */
-.home-sunset {
-  text-align: center;
-  height: 1100px;
-  width: 100%;
-  background-image: url('../images/sunset-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+.background-container {
+  height: 550px;
+  background-image: url(../assets/img/background.svg);
   background-position: center;
-}
-
-.home-title {
-  margin-top: 285px;
-}
-
-.sailboat {
-  position: absolute;
-  top: 570px;
-  left: 400px;
-  -webkit-animation: sailboat-move 1s 1s ease-out forwards;
-
-  animation-duration: 130s;
-  -webkit-animation-duration: 130s;
-}
-
-@-webkit-keyframes sailboat-move {
-    100% { left: 100%;}
-}
-
-/* underwater */
-.underwater {
-  height: 1400px;
-  width: 100%;
-  background-image: url('../images/underwater-bg.png');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: relative;
 }
 
-.about-me {
-  padding-top: 200px;
-}
-
-.about-me-content {
-  font-size: 22px;
-  color: #fff399;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400px;
-  max-width: 800px;
-  margin-top: 34px;
-  margin-bottom: 64px;
-  line-height: 33px;
-}
-
-.skills-row {
-  display: inline-block;
-  width: 800px;
-}
-
-.skills-tile {
-  margin-right: 24px;
-  margin-top: 24px;
-  width: 150px;
-  height: 150px;
-}
-
-.fish {
-  position: absolute;
-  top: 350px;
-  right: 80px;
-  -webkit-animation: fish-move 2s 2s ease-out forwards;
-
-  animation-duration: 180s;
-  -webkit-animation-duration: 180s;
-}
-
-@-webkit-keyframes fish-move {
-    100% { right: 100%;}
-}
-
-.tuna {
-  position: absolute;
-  top: 900px;
-  left: 80px;
-  -webkit-animation: tuna-move 3s 3s ease-out forwards;
-
-  animation-duration: 220s;
-  -webkit-animation-duration: 220s;
-}
-
-@-webkit-keyframes tuna-move {
-    100% { left: 100%;}
-}
-
-/* caves */
-
-.caves {
-  height: 1400px;
+.world-contents {
+  display: block;
+  margin: 0 auto;
   width: 100%;
-  background-image: url('../images/caves-bg.png');
-  background-size: cover;
-  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.river {
+  background-image: url(../assets/img/river.svg);
   background-position: center;
-}
-
-.my-portfolio {
-  text-align: center;
-  padding-top: 280px;
-}
-
-.projects {
-  width: 850px;
-  margin: 34px auto;
-}
-
-.project-tile {
-  width: 350px;
-  height: 200px;
-  margin: 34px;
-}
-
-/* space */
-
-.space {
-  height: 1000px;
-  width: 100%;
-  background-image: url('../images/space-bg.png');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.my-contact {
-  text-align: center;
-  padding-top: 350px;
-}
-
-.rocket {
+  margin: 0 auto;
   position: absolute;
+  height: 35vh;
+  z-index: 3;
+  bottom: 0;
   left: 0;
   right: 0;
-  margin: 0 auto;
-  width: 250px;
-  bottom: 0;
 }
 
-.contact-subheader {
-  margin-top: 34px;
-  margin-bottom: 18px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 400px;
-  font-size: 28px;
+.reflection {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  bottom: 28vh;
+  left: 0;
+  margin: auto;
+  width: 15%;
+  background-color: #EAA1FF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: riverMovement 1s linear infinite;
   opacity: 0.5;
 }
 
-.contact-email {
-  font-size: 34px;
-  font-family: 'Roboto Mono', monospace;
-  color: #fff399;
-  font-weight: 400;
+.shooting-star {
+  position: absolute;
+  border: 2px solid transparent;
+  border-bottom: 60px solid #fff;
+  position: absolute;
+  z-index: 4;
+  animation: cometFlight 3s ease infinite;
 }
 
-.social-icons {
+.shooting-star:after {
+  content: '';
   position: absolute;
-  display: inline-block;
-  width: 700px;
-  margin: 28px auto;
+  border-radius: 100%;
+  background: #fff;
+  box-shadow: 0 0 15px 0 #fff;
+}
+
+.star-bg {
+  background-image: url(../assets/img/stars.svg);
+  background-position: center;
+  background-size: auto;
+  margin: 0 auto;
+  position: absolute;
+  height: 30%;
+  width: 100%;
+  z-index: 3;
+  top: 0;
   left: 0;
   right: 0;
-  z-index: 999;
 }
 
-.social {
-  width: 60px;
-  height: 60px;
-  margin: 0 18px;
+.stars {
+  background-color: white;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  animation-iteration-count: infinite;
+}
+
+.star-1 {
+  top: 5%;
+  right: 65%;
+  animation-name: twinkle-1;
+  animation-duration: 1s;
+}
+
+.star-2 {
+  top: 15%;
+  left: 15%;
+  animation-name: twinkle-2;
+  animation-duration: 1s;
+}
+
+.star-3 {
+  top: 25%;
+  right: 15%;
+  animation-name: twinkle-1;
+  animation-duration: 1s;
+}
+
+.star-4 {
+  top: 8%;
+  right: 20%;
+  animation-name: twinkle-2;
+  animation-duration: 1s;
+}
+
+.star-5 {
+  top: 12%;
+  left: 45%;
+  animation-name: twinkle-1;
+  animation-duration: 1s;
+}
+
+.star-6 {
+  top: 20%;
+  left: 65%;
+  animation-name: twinkle-2;
+  animation-duration: 1s;
+}
+
+.left-mask, .right-mask {
+  height: 65%;
+  width: 50%;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -5px;
+}
+
+.left-mask {
+  background-image: url(../assets/img/left-mask.svg);
+  left: 0;
+  z-index: 10;
+  background-position: bottom left;
+}
+
+.right-mask {
+  background-image: url(../assets/img/right-mask.svg);
+  right: 0;
+  z-index: 11;
+  background-position: bottom right;
+}
+
+.tablet-illustration {
+  position: absolute;
+  z-index: 12;
+  bottom: -2em;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 400px;
+}
+
+.clouds {
+  position: absolute;
+  fill: #fff;
+}
+
+.cloud1 {
+	top: 40px;
+  width: 100x;
+  height: 200px;
+  z-index: 6;
+  fill: #fff !important;
+  opacity: 0.7;
+  -webkit-animation: move 40s linear infinite;
+  -moz-animation: move 40s linear infinite;
+  -o-animation: move 40s linear infinite;
+  animation: move 40s linear infinite;
+}
+
+.cloud2 {
+	top: 120px;
+  width: 160x;
+  height: 260px;
+  z-index: 7;
+  fill: #fff !important;
+  opacity: 0.5;
+  -webkit-animation: move 45s linear 2s infinite backwards;
+  -moz-animation: move 45s linear 2s infinite backwards;
+  -o-animation: move 45s linear 2s infinite backwards;
+  animation: move 45s linear 2s infinite backwards;
+}
+
+.cloud3 {
+	top: 180px;
+  width: 80x;
+  height: 160px;
+  z-index: 7;
+  fill: #eee !important;
+  opacity: 1;
+  -webkit-animation: move 40s linear infinite;
+  -moz-animation: move 40s linear infinite;
+  -o-animation: move 40s linear infinite;
+  animation: move 40s linear infinite;
+}
+
+.cloud4 {
+	top: 100px;
+  width: 60x;
+  height: 140px;
+  z-index: 7;
+  fill: #fff !important;
+  opacity: 0.3;
+  -webkit-animation: move 25s linear infinite;
+  -moz-animation: move 25s linear infinite;
+  -o-animation: move 25s linear infinite;
+  animation: move 25s linear infinite;
 }
 
 @media (min-width:320px) and (max-width: 480px) {
 
-  /* home */
-  .sailboat {
-    display: none;
+  .background-container {
+    height: 90vh;
   }
 
-  /* general */
-  .section-title {
-    font-size: 24px;
+  .world-contents {
+    padding-top: 50px;
+    height: 100%;
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    -webkit-transform-origin: center;
+    transform-origin: center;
   }
 
-  .close-btn {
-    width: 28px;
-  }
-  .sidebar {
-    background-color: #000;
+  .river {
+    height: 35vh;
   }
 
-  .sidebar-links {
-    margin: 14px 0;
-    font-size: 28px !important;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 400 !important;
+  .reflection {
+    bottom: 25vh;
+    animation: riverMovement 3s linear infinite;
+    opacity: 0.2;
   }
 
-  #sidebar-home {
-    margin-top: 60px;
+  .left-mask, .right-mask {
+    width: 40%;
   }
 
-  /* underwater */
-  .fish {
-    display: none;
+  .cloud2 {
+    width: 120x;
+    height: 180px;
   }
 
-  .tuna {
-    display: none;
+  .tablet-illustration {
+    width: 60%;
+  }
+}
+
+@media (min-width:481px) and (max-width: 1229px) {
+  .background-container {
+    height: 90vh;
   }
 
-  /* caves */
-  .caves {
-    background-image: url('../images/mobile-caves-bg.png');
+  .world-contents {
+    padding-top: 50px;
+    height: 100%;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transform-origin: center;
+    transform-origin: center;
   }
 
-  .my-portfolio {
-    text-align: center;
-    padding-top: 150px;
+  .river {
+    height: 35vh;
   }
 
-  .projects {
-    width: 100%;
-    margin: 34px auto;
+  .reflection {
+    bottom: 25vh;
   }
 
-  /* space */
-
-  .space {
-    height: 667px;
-    background-image: url('../images/mobile-space.png');
-  }
-
-  .my-contact {
-    text-align: center;
-    padding-top: 160px;
-  }
-
-  .rocket {
-    width: 130px;
-  }
-
-  .contact-subheader {
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-size: 18px;
-    opacity: 0.7;
-  }
-
-  .contact-email {
-    font-size: 21px;
-  }
-
-  .social-icons {
-    width: 350px;
-  }
-
-  .social {
-    width: 50px;
-    height: 50px;
-    margin: 0 8px;
+  .left-mask, .right-mask {
+    height: 45%;
   }
 
 }
 
-@media (min-width:320px) and (max-width: 410px) {
-
-  /* general */
-  .content-wrap {
-    padding: 0 18px;
+@media (min-width:481px) and (max-width: 760px) {
+  .river {
+    height: 40vh;
   }
-
-  /* home */
-  .home-sunset {
-    height: 667px;
-    background-image: url('../images/mobile-sunset-bg.png');
+  .reflection {
+    bottom: 28vh;
   }
-
-  .home-title {
-    margin-top: 220px;
-    width: 300px;
-  }
-
-  /* underwater */
-  .underwater {
-    height: 1150px;
-    background-image: url('../images/mobile-underwater-bg.png');
-    text-align: center;
-  }
-
-  .about-me {
-    padding-top: 90px;
-  }
-
-  .about-me-content {
-    text-align: left;
-    font-size: 16px;
-    margin-top: 24px;
-    margin-bottom: 34px;
-  }
-
-  .skills-row {
-    display: inline-block;
-    max-width: 290px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .skills-tile {
-    margin-right: 8px;
-    margin-left: 8px;
-    margin-top: 16px;
-    width: 125px;
-    height: 125px;
-  }
-
-  /* caves */
-  .caves {
-    height: 700px;
-  }
-
-  .project-tile {
-    width: 150px;
-    height: 90px;
-    margin: 16px 8px;
-  }
-
 }
 
-@media (min-width:410px) and (max-width: 480px) {
-
-  /* general */
-  .content-wrap {
-    padding: 0 24px;
+@media (min-width:1230px) and (max-width:1550px) {
+  .background-container {
+    height: 90vh;
   }
 
-  /* home */
-  .home-sunset {
-    height: 736px;
-    background-image: url('../images/mobile-sunset-bg.png');
+  .world-contents {
+    height: 100%;
   }
 
-  .home-title {
-    margin-top: 250px;
-    width: 320px;
+  .river {
+    height: 40vh;
   }
 
-  /* underwater */
-  .underwater {
-    height: 1250px;
-    background-image: url('../images/mobile-underwater-bg.png');
-    text-align: center;
+  .left-mask, .right-mask {
+    height: 58%;
   }
-
-  .about-me {
-    padding-top: 80px;
-  }
-
-  .about-me-content {
-    text-align: left;
-    font-size: 18px;
-    margin-top: 24px;
-    margin-bottom: 44px;
-  }
-
-  .skills-row {
-    display: inline-block;
-    max-width: 350px;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .skills-tile {
-    margin-right: 8px;
-    margin-left: 8px;
-    margin-top: 16px;
-    width: 150px;
-    height: 150px;
-  }
-
-  /* caves */
-  .caves {
-    height: 780px;
-  }
-
-  .project-tile {
-    width: 160px;
-    height: 90px;
-    margin: 16px 8px;
-  }
-
 }
 
-@media (min-width:1000px) and (max-width:1550px) {
-
-  /* home */
-  .home-title {
-    margin-top: 305px;
+@media (min-width:1100px) and (max-height:1080px) {
+  .left-mask, .right-mask {
+    height: 75%;
   }
-
 }
 
-@media (min-width:1800px) {
+@media (min-width:1390px) and (max-width:1550px) {
+  .left-mask, .right-mask {
+    height: 62%;
+  }
+}
 
-  /* home */
-  .home-sunset {
-    height: 1200px;
+@media (min-width:1390px) and (max-height:1080px) {
+  .left-mask, .right-mask {
+    height: 75%;
+  }
+}
+
+@media (min-width:1551px) {
+  .background-container {
+    height: 90vh;
   }
 
-  .home-title {
-    margin-top: 300px;
+  .world-contents {
+    height: 100%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
   }
 
-  .sailboat {
-    top: 640px;
+  .tablet-illustration {
+    bottom: -3em;
+    width: 530px;
   }
 
+  .left-mask, .right-mask {
+    height: 80%;
+  }
+
+  .river {
+    height: 35vh;
+  }
+
+  .reflection {
+    bottom: 25vh;
+  }
+}
+
+@media (min-width:1551px) and (max-height:800px) {
+  .left-mask, .right-mask {
+    height: 90%;
+  }
+}
+
+@media (min-width:1890px) {
+  .left-mask, .right-mask {
+    height: 85%;
+  }
+}
+
+@media (min-width:1890px) and (max-height:940px) {
+  .left-mask, .right-mask {
+    height: 100%;
+  }
+
+  .tablet-illustration {
+    width: 550px;
+    bottom: -5em;
+  }
+
+  .world-contents {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@media (min-width:2140px) {
+  .left-mask, .right-mask {
+    height: 90%;
+  }
 }
