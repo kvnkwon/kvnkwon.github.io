@@ -34,6 +34,11 @@ hr {
   background-color: #456DFF !important;
 }
 
+.primary-stroke {
+  border-color: #456DFF !important;
+  color: #456DFF !important;
+}
+
 /* nav */
 
 .my-nav {
@@ -52,7 +57,7 @@ hr {
 
 @media (min-width:320px) and (max-width: 480px) {
   .brand-logo {
-    
+
   }
 }
 
